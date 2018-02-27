@@ -53,6 +53,11 @@ public class YandexSpellerApi {
             return this;
         }
 
+        public ApiBuilder format(Format format) {
+            spellerApi.params.put(PARAM_FORMAT, format.formatParam);
+            return this;
+        }
+
         public Response callApi() {
             return RestAssured.with()
                     .queryParams(spellerApi.params)

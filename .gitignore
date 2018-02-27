@@ -1,6 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
-*.class
+target/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -14,10 +14,8 @@
 hs_err_pid*
 
 .DS_Store
-.idea/.DS_Store
-.idea/libraries/
-.idea/uiDesigner.xml
-.idea/workspace.xml
+.idea/
+*.iml
 src/.DS_Store
 src/main/java/beans/
-target/
+
